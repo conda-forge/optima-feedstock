@@ -7,7 +7,7 @@ package:
 source:
   url: https://github.com/reaktoro/optima/archive/v{{ version }}.tar.gz
   sha256: aa866ac5424e038cdc1ad41ccaa1c61a58651d453aeeade6ebd371d2815cf1c9
-  
+
 build:
   number: 0
 
@@ -51,11 +51,11 @@ about:
   license_family: LGPL
   license_file: LICENSE.md
   summary: A C++/Python library for linear and non-linear constrained optimization calculations
-  
+
   description: |
     Optima is a general-purpose C++/Python library for solving linear and
     non-linear constrained optimization problems.
-    
+
   doc_url: https://github.com/reaktoro/optima
   dev_url: https://github.com/reaktoro/optima
 
