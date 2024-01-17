@@ -32,7 +32,7 @@ requirements:
     - pip
     - pybind11
     - pybind11-abi
-    - pybind11-stubgen
+    - pybind11-stubgen                       # [not arm64 and not aarch64 and not ppc64le]
     - setuptools
     - pytest
     - pytest-xdist
