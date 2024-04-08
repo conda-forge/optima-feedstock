@@ -7,7 +7,7 @@ cmake -GNinja ..                            ^
     -DCMAKE_INSTALL_PREFIX=%LIBRARY_PREFIX% ^
     -DCMAKE_INCLUDE_PATH=%LIBRARY_INC%      ^
     -DOPTIMA_PYTHON_INSTALL_PREFIX=%PREFIX% ^
-    -DPYTHON_EXECUTABLE=%PYTHON%
+    -DPython_EXECUTABLE=%PYTHON%
 
 @REM Build and install Optima in %LIBRARY_PREFIX%
 ninja install
