@@ -9,15 +9,14 @@ source:
   sha256: 7a93cb9fc98ed6a9c4a841c80579c03f7c1e773944ff5e765dbb7c486c85cc99
   
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
     - ninja
-    - ccache   # [unix]
-    - clcache  # [win]
+    - ccache
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - pybind11                               # [build_platform != target_platform]
