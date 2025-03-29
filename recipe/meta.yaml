@@ -16,7 +16,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - cmake
+    - cmake <4
     - ninja
     - ccache
     - python                                 # [build_platform != target_platform]
@@ -44,7 +44,7 @@ requirements:
 test:
   requires:
     - {{ compiler('cxx') }}
-    - cmake
+    - cmake <4
     - ninja
   files:
     - test/
